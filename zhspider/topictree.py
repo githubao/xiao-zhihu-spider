@@ -76,7 +76,7 @@ class TopicTree:
     def getpass(self):
         # with open('C:\\Users\\BaoQiang\\Desktop\\password.txt', 'r') as f:
         with open('/mnt/home/baoqiang/password.txt', 'r') as f:
-            return f.read()
+            return f.read().strip()
 
 
 def tmp():
